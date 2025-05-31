@@ -18,7 +18,7 @@ def load_model_information(file_path):
 
 # get model name
 model_name = load_model_information("run_information.json")["model_name"]
-stage = "Staging"
+stage = "Production"
 
 # get the latest version from staging stage
 client = MlflowClient()
