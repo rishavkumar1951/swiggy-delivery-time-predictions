@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from sklearn.pipeline import Pipeline
+from sklearn.pipeline import Pipeline  
 import uvicorn
 import pandas as pd
 import mlflow
